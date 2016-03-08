@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/relativelayout">
+    
+<TextView
+        android:id="@+id/tv_rotate"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:text=""
+        android:textSize="160sp"
+        android:textColor="#0ff"
+        android:gravity="center"
+        android:background="@drawable/tai2" />
+
+    <TextView
+        android:id="@+id/tv_context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_rotate"
+        android:layout_marginTop="26dp"
+        android:gravity="center"
+        android:hint="还没有取值哦"
+        android:textColor="#f0f"
+        android:textSize="20sp" />
+    
+</RelativeLayout>

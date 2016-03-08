@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array  name="array">
+      <item>简单(25)</item>
+      <item>中等(49)</item>
+      <item>较难(64)</item>
+      <item>高难(72)</item>
+   </string-array> 
+</resources>
